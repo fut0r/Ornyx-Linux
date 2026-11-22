@@ -1,0 +1,12 @@
+adwaita-cursor-theme
+adwaita-icon-theme
+file-roller
+gnome-bluetooth
+gvfs-mtp
+loupe
+orca
+rsms-inter-vf-fonts
+xdg-desktop-portal-gnome
+xdg-desktop-portal-gtk
+xdg-user-dirs-gtk
+xdg-utils

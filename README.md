@@ -4,6 +4,8 @@ Ornyx Linux is a Fedora-based desktop project for x86_64 with a minimal, privacy
 
 ## Source layout
 
+The [GNOME edition](config/gnome/README.md) uses Fedora's GNOME session, Brave as its default browser, and the Ornyx Fold wallpaper.
+
 | Directory | Contents |
 | --- | --- |
 | [config](config/README.md) | Shared system settings and separate GNOME and KDE settings |

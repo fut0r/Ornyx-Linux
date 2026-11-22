@@ -10,4 +10,8 @@ Apply the same casing, weight and spacing to GNOME, KDE, future boot and login s
 
 Inter is the distributable default. If bundling it, obtain the font from the [Inter project](https://rsms.me/inter/) and retain its SIL Open Font License and copyright notice. SF Pro Display is an optional local design reference only where the designer has permission to use it. Exclude Apple font files from distributed assets.
 
-For each added asset, record the creator, source, license and any attribution beside the asset. Identify original artwork and its license explicitly. This phase includes no font binaries or artwork.
+For each added asset, record the creator, source, license and any attribution beside the asset. The [Fold wallpaper](wallpapers/fold.svg) is original vector artwork by the Ornyx Linux project, licensed under GPL-3.0-or-later. Inter comes from Fedora's font package.
+
+## Desktop palette and type
+
+Fold uses near-black `#111215`, charcoal `#17191D`, graphite `#202228`, a raised plane in `#2B2D33` and a thin red edge in `#B74749`. For project-owned text surfaces use soft white `#F1F1F2` and secondary gray `#B8B9BE` on near-black. GNOME supplies its own accessible red accent, foregrounds, focus indicators and high-contrast theme. Use the regular Inter Variable family at 11 pt for GNOME interface text; retain the user's scaling and monospace preferences.

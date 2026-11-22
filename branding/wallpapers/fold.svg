@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160">
+  <title>Fold</title>
+  <desc>Overlapping graphite planes with a fine red edge on a near-black field.</desc>
+  <rect width="3840" height="2160" fill="#111215"/>
+  <path d="M1152 2160 2920 392 3840 760V2160Z" fill="#202228"/>
+  <path d="m2920 392 920 368v1230Z" fill="#2b2d33"/>
+  <path d="m1650 2160 1420-1420 770 316v1104Z" fill="#17191d"/>
+  <path d="m3070 740 770 316v12l-770-319-925 925Z" fill="#b74749"/>
+  <path d="m3070 749 770 319v1092h-34Z" fill="#202228"/>
+</svg>

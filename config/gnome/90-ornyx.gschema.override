@@ -1,0 +1,17 @@
+[org.gnome.desktop.interface]
+color-scheme='prefer-dark'
+accent-color='red'
+font-name='Inter Variable 11'
+cursor-theme='Adwaita'
+icon-theme='Adwaita'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/ornyx/fold.svg'
+picture-uri-dark='file:///usr/share/backgrounds/ornyx/fold.svg'
+picture-options='zoom'
+
+[org.gnome.mutter]
+dynamic-workspaces=true
+
+[org.gnome.shell]
+favorite-apps=['brave-browser.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Ptyxis.desktop']
