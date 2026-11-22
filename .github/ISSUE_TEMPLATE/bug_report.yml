@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible failure.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the edition, architecture and source revision.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the starting state and steps.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed behavior
+      description: Include sanitized output where relevant.
+    validations:
+      required: true
