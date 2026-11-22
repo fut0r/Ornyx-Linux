@@ -1,6 +1,6 @@
 # Ornyx Linux
 
-Ornyx Linux is a Fedora-based desktop project for x86_64 with a minimal, privacy-conscious default configuration. Ornyx GNOME is the default edition. Ornyx KDE is the alternative. Phase 01 establishes the repository and contributor workflow. Installable images and build instructions will follow in later phases.
+Ornyx Linux is a Fedora-based desktop project for x86_64 with a minimal, privacy-conscious default configuration. Ornyx GNOME is the default edition. Ornyx KDE is the alternative. Both edition inputs now consume the same Fedora core. See the [Fedora base and maintenance guide](docs/fedora-base.md) for the release pin, update workflow, builder and hardware test scope. Installable images will follow in later phases.
 
 ## Source layout
 

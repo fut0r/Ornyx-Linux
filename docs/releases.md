@@ -4,4 +4,4 @@ GitHub is the official source repository. Develop on topic branches and merge re
 
 For a future official release, tag the reviewed source revision and build both editions from documented inputs. Use distinct filenames containing the version, edition and architecture. From the output directory, generate a SHA256SUMS file with `sha256sum *.iso > SHA256SUMS` in a directory containing only the intended release images. Verify the files with `sha256sum --check SHA256SUMS`.
 
-Attach the verified images and SHA256SUMS to the matching GitHub Release. Include release notes covering the Fedora base, changes, known issues and verification steps. Set the first release version and supported Fedora base during release planning.
+Attach the verified images and SHA256SUMS to the matching GitHub Release. Include release notes covering the Fedora base, changes, known issues and verification steps. Set the first Ornyx version during release planning and reconfirm support for the [pinned Fedora base](fedora-base.md).
