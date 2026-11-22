@@ -27,6 +27,19 @@ install_default() {
         install -D -m 0644 "$stage/default" "$destination"
     fi
 }
+cat > "$stage/install-edition-apps.sh" <<'APPS'
+%include ../../scripts/install-edition-apps.sh
+APPS
+bash "$stage/install-edition-apps.sh" "$stage"
+cat > "$stage/install-wallpapers.sh" <<'PHOTOS'
+%include ../../scripts/install-wallpapers.sh
+PHOTOS
+bash "$stage/install-wallpapers.sh" /usr/share/backgrounds/ornyx <<'MANIFEST'
+%include ../../branding/wallpapers/photos.tsv
+MANIFEST
+install_default /usr/share/doc/ornyx-wallpapers/credits.md <<'CREDITS'
+%include ../../branding/wallpapers/credits.md
+CREDITS
 install_default /usr/share/backgrounds/ornyx/fold.svg <<'SVG'
 %include ../../branding/wallpapers/fold.svg
 SVG
@@ -42,12 +55,21 @@ ASSOCIATIONS
 install_default /usr/share/icons/hicolor/scalable/apps/ornyx-linux.svg <<'WORDMARK'
 %include ../../branding/ornyx-linux.svg
 WORDMARK
+install_default /usr/share/pixmaps/ornyx-linux-desktop.svg <<'DESKTOP_LOGO'
+%include ../../branding/ornyx-linux-desktop.svg
+DESKTOP_LOGO
 install_default /etc/fonts/conf.d/65-ornyx-fonts.conf <<'FONTS'
 %include 65-ornyx-fonts.conf
 FONTS
 install_default /usr/share/glib-2.0/schemas/zz-ornyx-branding.gschema.override <<'BRANDING'
 %include zz-ornyx-branding.gschema.override
 BRANDING
+cat > "$stage/brand-identity.sh" <<'IDENTITY'
+%include ../../scripts/brand-identity.sh
+IDENTITY
+cat > "$stage/brand-boot.sh" <<'BOOT'
+%include ../../scripts/brand-boot.sh
+BOOT
 cat > "$stage/brand-target.sh" <<'TARGET'
 %include ../../scripts/brand-target.sh
 TARGET

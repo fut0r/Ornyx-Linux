@@ -9,4 +9,29 @@
     <pcolor>#111215</pcolor>
     <scolor>#111215</scolor>
   </wallpaper>
+  <wallpaper deleted="false">
+    <name>Matterhorn</name>
+    <filename>/usr/share/backgrounds/ornyx/matterhorn.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Mount Rainier at Aurora Lake</name>
+    <filename>/usr/share/backgrounds/ornyx/rainier.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Monte Civetta</name>
+    <filename>/usr/share/backgrounds/ornyx/civetta.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Skógafoss</name>
+    <filename>/usr/share/backgrounds/ornyx/skogafoss.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Lower Manhattan in Monochrome</name>
+    <filename>/usr/share/backgrounds/ornyx/manhattan.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
 </wallpapers>

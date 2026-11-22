@@ -2,8 +2,9 @@
 logo='/usr/share/pixmaps/ornyx-linux.png'
 
 [org.gnome.shell.extensions.background-logo]
-logo-file='/usr/share/icons/hicolor/scalable/apps/ornyx-linux.svg'
-logo-file-dark='/usr/share/icons/hicolor/scalable/apps/ornyx-linux.svg'
+logo-file='/usr/share/pixmaps/ornyx-linux-desktop.svg'
+logo-file-dark='/usr/share/pixmaps/ornyx-linux-desktop.svg'
+logo-size=11.0
 logo-position='bottom-right'
 
 [org.gnome.shell]

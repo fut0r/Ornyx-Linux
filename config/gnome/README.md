@@ -39,3 +39,9 @@ The GNOME target post section installs the outlined Ornyx wordmark for the deskt
 Inter Variable is the primary UI and document face. Fontconfig accepts a locally licensed SF Pro Display installation as a fallback. Proportional Arabic text uses Amiri, with Kawkab Mono preferred for Arabic terminal glyphs. Ptyxis inherits JetBrains Mono from GNOME. Kawkab Mono v0.501 is fetched from its upstream release, checked against a pinned SHA-256 digest and installed with its OFL license.
 
 On the first disposable installed image, inspect the boot menu and splash, any disk-unlock prompt, the GDM logo, both Settings appearance modes, and the lower-right desktop wordmark. Verify Arabic mixed with Latin in Text Editor and Ptyxis, reboot after a kernel update, and confirm the new boot entry retains the Ornyx name.
+
+## Applications supplied with Ornyx Linux 1
+
+The GNOME target installs Steam, the community Proton-GE compatibility tool, Extension Manager and VLC system-wide from Flathub. Steam users can select GE-Proton in a game's compatibility settings. Steam's own runtime and game downloads require network access. Visual Studio Code uses Microsoft's signed RPM repository. GNOME Tweaks, GNOME Extensions, Git, ripgrep and the GStreamer multimedia plugins come from Fedora. The image provisioning step requires network access to these sources.
+
+Settings includes five additional 3840 × 2160 photographs. Provisioning verifies each source photograph against its pinned SHA-256 hash before cropping and resizing it. The installed photo credits are in `/usr/share/doc/ornyx-wallpapers/credits.md`.
