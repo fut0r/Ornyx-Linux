@@ -25,3 +25,9 @@ The [GNOME browser manifest](../../packages/gnome-browser.txt) is consumed by th
 An unavailable repository, changed pin, invalid signature or conflicting configuration stops provisioning. Check guest connectivity, DNS and time first. For a key or repository change, compare the official signing-key publication and stable repository, verify a current RPM, and submit updated pins for review. After resolving the cause, retry from the guest snapshot. For the browser transaction alone, an approved guest administrator can rerun `bash scripts/install-brave.sh < packages/gnome-browser.txt` as root. An identical existing repository file is accepted.
 
 The [GNOME MIME defaults](gnome-mimeapps.list) select the RPM's visible `brave-browser.desktop` for web URLs, HTML and XHTML. The browser uses its vendor icon, first-run behavior and privacy controls. Ornyx supplies no browser profile, policies, sync settings or login launcher. Verify effective user associations and actual dispatch using the [session checks](../../tests/README.md).
+
+## Opening local files
+
+Fedora supplies Files for folders, Text Editor for plain text and Loupe for JPEG, PNG and WebP images. Ornyx selects Archive Manager for ZIP, tar and gzip-compressed tar so opening an archive displays its contents. Files retains its native extraction actions. The mandatory GNOME group supplies Ptyxis, Files, Text Editor, Settings and Software. Their upstream launchers, icons and translated names are used directly.
+
+User directories follow the session language through Fedora's XDG user directories setup. Notification banners, event sounds and accessibility controls use GNOME defaults. NetworkManager and the distribution's time synchronization settings remain under system control.

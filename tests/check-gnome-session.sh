@@ -17,6 +17,17 @@ expect "$(xdg-settings get default-web-browser)" brave-browser.desktop
 for type in x-scheme-handler/http x-scheme-handler/https text/html application/xhtml+xml; do
     expect "$(xdg-mime query default "$type")" brave-browser.desktop
 done
+for association in \
+    inode/directory=org.gnome.Nautilus \
+    text/plain=org.gnome.TextEditor \
+    image/jpeg=org.gnome.Loupe \
+    image/png=org.gnome.Loupe \
+    image/webp=org.gnome.Loupe \
+    application/zip=org.gnome.FileRoller \
+    application/x-tar=org.gnome.FileRoller \
+    application/x-compressed-tar=org.gnome.FileRoller; do
+    expect "$(xdg-mime query default "${association%=*}")" "${association#*=}.desktop"
+done
 desktop=/usr/share/applications/brave-browser.desktop
 test -r "$desktop"
 grep -qx 'Icon=brave-browser' "$desktop"
