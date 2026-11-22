@@ -1,10 +1,12 @@
 # Ornyx wordmark
 
-Set the wordmark as **Ornyx** in title case using Inter Thin (100) with tracking of 0.02 em. Use Inter ExtraLight (200) when small sizes or low-density screens make thin strokes disappear. Use the full name “Ornyx Linux” in running text, page titles and accessible labels.
+Set the wordmark as **Ornyx Linux** in title case using Inter Thin (100) with tracking of 0.02 em. Use Inter ExtraLight (200) when small sizes or low-density screens make thin strokes disappear. Use the full name “Ornyx Linux” in running text, page titles and accessible labels.
 
 Leave clear space of at least half the capital O height on all sides. Use a single foreground color on a quiet background. Check readability on both light and dark surfaces at the intended display size. Use normal text weights for instructions, controls and documentation body copy.
 
 Apply the same casing, weight and spacing to GNOME, KDE, future boot and login screens, the installer, website and GitHub artwork. Keep the wordmark typographic. Review any future rendered asset at its smallest intended size before accepting it.
+
+The project wordmark is available as [outlined SVG](ornyx-linux.svg) and [transparent PNG](ornyx-linux.png). Both use soft white for dark backgrounds. The Ornyx Linux project created these assets using Fedora’s Inter Variable font by Rasmus Andersson. The artwork uses the project’s GPL-3.0-or-later license.
 
 ## Asset licensing
 
