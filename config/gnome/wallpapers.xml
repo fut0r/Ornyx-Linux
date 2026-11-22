@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Ornyx Fold</name>
+    <filename>/usr/share/backgrounds/ornyx/fold.svg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#111215</pcolor>
+    <scolor>#111215</scolor>
+  </wallpaper>
+</wallpapers>
