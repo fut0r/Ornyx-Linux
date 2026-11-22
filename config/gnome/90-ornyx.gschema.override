@@ -2,6 +2,8 @@
 color-scheme='prefer-dark'
 accent-color='red'
 font-name='Inter Variable 11'
+document-font-name='Inter Variable 11'
+monospace-font-name='JetBrains Mono 11'
 cursor-theme='Adwaita'
 icon-theme='Adwaita'
 

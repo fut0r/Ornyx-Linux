@@ -4,7 +4,7 @@ Ornyx uses Fedora's GNOME 51 Wayland session and GDM. The [edition input](../../
 
 ## Desktop experience
 
-The native top bar, Activities overview, overview dash, keyboard shortcuts and window controls retain GNOME behavior. Workspaces are dynamic. The dash starts with Brave, Files and Ptyxis. Native motion, reduced-motion preferences, focus indicators, high contrast, scaling and Orca remain available. Ornyx adds zero Shell extensions, custom GTK themes or autostart entries.
+The native top bar, Activities overview, overview dash, keyboard shortcuts and window controls retain GNOME behavior. Workspaces are dynamic. The dash starts with Brave, Files and Ptyxis. Native motion, reduced-motion preferences, focus indicators, high contrast, scaling and Orca remain available. Fedora’s background-logo extension displays the Ornyx wordmark at the lower right of the default wallpaper.
 
 The [GSettings override](90-ornyx.gschema.override) selects dark mode, the native red accent, Adwaita icons and cursor, regular Inter Variable at 11 pt, and Fold in both appearance modes. The wallpaper also appears in Settings through [GNOME's wallpaper catalog](wallpapers.xml). See the [visual specification](../../branding/README.md) for colors and licensing.
 
@@ -31,3 +31,11 @@ The [GNOME MIME defaults](gnome-mimeapps.list) select the RPM's visible `brave-b
 Fedora supplies Files for folders, Text Editor for plain text and Loupe for JPEG, PNG and WebP images. Ornyx selects Archive Manager for ZIP, tar and gzip-compressed tar so opening an archive displays its contents. Files retains its native extraction actions. The mandatory GNOME group supplies Ptyxis, Files, Text Editor, Settings and Software. Their upstream launchers, icons and translated names are used directly.
 
 User directories follow the session language through Fedora's XDG user directories setup. Notification banners, event sounds and accessibility controls use GNOME defaults. NetworkManager and the distribution's time synchronization settings remain under system control.
+
+## Target branding
+
+The GNOME target post section installs the outlined Ornyx wordmark for the desktop, GDM, Settings and the Plymouth spinner. It writes the target OS identity, sets the GRUB distributor and updates machine-local Fedora boot entry titles. Fedora package repositories and signed EFI binaries retain their upstream identities. Firmware boot-device names and ISO menu labels require separate installer and compose checks.
+
+Inter Variable is the primary UI and document face. Fontconfig accepts a locally licensed SF Pro Display installation as a fallback. Proportional Arabic text uses Amiri, with Kawkab Mono preferred for Arabic terminal glyphs. Ptyxis inherits JetBrains Mono from GNOME. Kawkab Mono v0.501 is fetched from its upstream release, checked against a pinned SHA-256 digest and installed with its OFL license.
+
+On the first disposable installed image, inspect the boot menu and splash, any disk-unlock prompt, the GDM logo, both Settings appearance modes, and the lower-right desktop wordmark. Verify Arabic mixed with Latin in Text Editor and Ptyxis, reboot after a kernel update, and confirm the new boot entry retains the Ornyx name.

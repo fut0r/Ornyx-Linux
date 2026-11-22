@@ -39,6 +39,24 @@ SETTINGS
 install_default /etc/xdg/gnome-mimeapps.list <<'ASSOCIATIONS'
 %include gnome-mimeapps.list
 ASSOCIATIONS
-glib-compile-schemas --strict /usr/share/glib-2.0/schemas
+install_default /usr/share/icons/hicolor/scalable/apps/ornyx-linux.svg <<'WORDMARK'
+%include ../../branding/ornyx-linux.svg
+WORDMARK
+install_default /etc/fonts/conf.d/65-ornyx-fonts.conf <<'FONTS'
+%include 65-ornyx-fonts.conf
+FONTS
+install_default /usr/share/glib-2.0/schemas/zz-ornyx-branding.gschema.override <<'BRANDING'
+%include zz-ornyx-branding.gschema.override
+BRANDING
+cat > "$stage/brand-target.sh" <<'TARGET'
+%include ../../scripts/brand-target.sh
+TARGET
+bash "$stage/brand-target.sh" "$stage"
+# Validate project overrides strictly in isolation. Fedora 45 also ships
+# an unrelated screensaver override for a key removed from its schema.
+mkdir "$stage/schemas"
+cp /usr/share/glib-2.0/schemas/*.xml /usr/share/glib-2.0/schemas/*ornyx*.override "$stage/schemas/"
+glib-compile-schemas --strict "$stage/schemas"
+glib-compile-schemas /usr/share/glib-2.0/schemas
 systemctl set-default graphical.target
 %end

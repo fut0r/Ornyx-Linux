@@ -1,11 +1,17 @@
 adwaita-cursor-theme
 adwaita-icon-theme
+amiri-fonts
 file-roller
 gnome-bluetooth
+gnome-shell-extension-background-logo
 gvfs-mtp
+jetbrains-mono-fonts
+librsvg2-tools
 loupe
 orca
+plymouth-theme-spinner
 rsms-inter-vf-fonts
+unzip
 xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-user-dirs-gtk

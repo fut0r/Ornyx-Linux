@@ -1,0 +1,10 @@
+[org.gnome.login-screen]
+logo='/usr/share/pixmaps/ornyx-linux.png'
+
+[org.gnome.shell.extensions.background-logo]
+logo-file='/usr/share/icons/hicolor/scalable/apps/ornyx-linux.svg'
+logo-file-dark='/usr/share/icons/hicolor/scalable/apps/ornyx-linux.svg'
+logo-position='bottom-right'
+
+[org.gnome.shell]
+enabled-extensions=['background-logo@fedorahosted.org']
