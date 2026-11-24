@@ -22,3 +22,9 @@ Start with the [contribution guide](CONTRIBUTING.md). Report sensitive findings 
 ## License
 
 Original project code and configuration are available under GPL-3.0-or-later. Recipients may use version 3 of the GNU General Public License or any later version. See [LICENSE](LICENSE) and the [asset licensing guidance](branding/README.md).
+
+**Caution:** Ornyx Linux is currently in an experimental stage. You'd probably notice bugs, errors, or unexpected behavior.
+
+If you encounter any issues, please report them to us at **hi@ornyx.org**.
+
+Thank you for helping us improve Ornyx.
