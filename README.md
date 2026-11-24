@@ -27,4 +27,4 @@ Original project code and configuration are available under GPL-3.0-or-later. Re
 
 If you encounter any issues, please report them to us at **hi@ornyx.org**.
 
-Thank you for helping us improve Ornyx.
+Thank you for helping us improve Ornyx Linux
